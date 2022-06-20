@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body {
+    margin: 0;
+     padding: 0;
+     background:  url('https://imgur.com/go8PSWZ.png') center center no-repeat fixed;
+}
+
+@font-face {
+    font-family: 'fontcanndy';
+    src: url(fontcanndy.woff);
+  }
+
+  /* .info button {
+	font-family: 'fontcanndy',sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.07vw;
+    width: 8vw;
+    bottom: 1vw;
+    left: 170vh;
+    height: 3vw;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    background: #aa0000;
+    border-radius: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: border-color 0.5s ease;
+    -o-transition: background-color ease 0.5s;
+    transition: background-color 0.5s ease;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    text-shadow:
+    0 0 15px #fff,
+    0 0 352px #fff,
+    0 0 100px #fff,
+    0 0 130px #fff,
+    0 0 11px #fff;  
+}
+
+.info button:hover a:hover{
+	background: #c93460;
+}
+
+.info button:hover{
+    background: #ff4c4c;
+    font-size: 1.2vw;
+    border-radius: 13px;
+    box-shadow:
+    0 0 7px #ff0000,
+    0 0 332px #ff0000,
+    0 0 92px #ff0000,
+    0 0 102px #ff0000,
+    0 0 351px #ff0000; 
+    
+}  */
+
+.bg button {
+	font-family: 'fontcanndy',sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.07vw;
+    width: 8vw;
+    top: 24vw;
+    left: 60vh;
+    height: 3vw;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    background: #aa0000;
+    border-radius: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: border-color 0.5s ease;
+    -o-transition: background-color ease 0.5s;
+    transition: background-color 0.5s ease;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    text-shadow:
+    0 0 15px #fff,
+    0 0 352px #fff,
+    0 0 100px #fff,
+    0 0 130px #fff,
+    0 0 11px #fff;  
+}
+
+.bg button:hover a:hover{
+	background: #c93460;
+}
+
+.bg button:hover{
+    background: #ff4c4c;
+    font-size: 1.2vw;
+    border-radius: 13px;
+    box-shadow:
+    0 0 7px #ff0000,
+    0 0 332px #ff0000,
+    0 0 92px #ff0000,
+    0 0 102px #ff0000,
+    0 0 351px #ff0000; 
+    
+} 
+
+.text1, 
+.text2, 
+.text3 {
+	position: relative;
+    border-left: rgba(255, 255, 255, 0.518) 1px solid;
+    font-family: fontcanndy;
+    color: #fff;
+    display: block;
+    top: 2em;
+    width: 70%;
+    left: 30px;
+    font-size: 1.1em;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 332px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 351px #fff;   
+}
+
+.text1{
+	animation-name: anim-1;
+}
+
+.text2{
+	animation-name: anim-2;
+}
+
+.text3{
+	animation-name: anim-3;
+}
+
+.imgsource {
+  position: relative;
+  border-style: solid;
+  border-color: rgb(97, 7, 7);
+  border-radius: 5px;
+  top: 10cm;
+  left: 15cm
+}
+
+.imgsource:hover {
+  position: relative;
+  border-color: #ff0000;
+  opacity: 0.5;
+}
+
+
+/* .checker {
+  position: relative;
+  top: 25cm;
+  right: 8cm;
+
+
+}
+
+.generator {
+  position: relative;
+  top: 30cm;
+  left: 14cm
+} */
+
+
+
+@keyframes anim-1 {
+	0%, 8.3% { opacity: 0; }
+  8.3%,25% { opacity: 1; }
+  33.33%, 100% { opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { opacity: 0; }
+  41.63%, 58.29% { opacity: 1; }
+  66.66%, 100% { opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { opacity: 0; }
+  74.96%, 91.62% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+
